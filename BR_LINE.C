@@ -34,17 +34,11 @@ void bresenhams_line(int x1, int y1, int x2, int y2) {
     }
 }
 
-void triangle(int x1, int y1, int x2, int y2, int x3, int y3) {
-    bresenhams_line(x1, y1, x2, y2);
-    bresenhams_line(x2, y2, x3, y3);
-    bresenhams_line(x3, y3, x1, y1);
-}
 
 int main() {
-    int gd = DETECT, gm;
+    int gd = DETECT, gm,x,y,x1,y1;
     initgraph(&gd, &gm,"C://programs//TC//BGI");
-    triangle(150, 150, 250, 150, 200, 350);
-    triangle(150,300,250,300,200,100);
+    
     getch();
     closegraph();
     return 0;
