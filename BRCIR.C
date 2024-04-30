@@ -39,13 +39,13 @@ void circleBres(int xc, int yc, int r)
 
 void main()
 {
-	int gd = DETECT, gm;
+	int gd = DETECT, gm,x,y,r;
 	initgraph(&gd, &gm, "C://TURBOC3//BGI");
-	circleBres(200,200,50);
-	circleBres(150,200,50);
-	circleBres(250,200,50);
-	circleBres(200,150,50);
-	circleBres(200,250,50);
+	
+	 printf("-------MIDPOINT CIRCLE ALGO--------\n");
+printf("enter x,y,r:");
+scanf("%d %d %d",&x,&y,&r);
+circleBres(x,y,r);
 	getch();
 	closegraph();
 }
