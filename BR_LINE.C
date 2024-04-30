@@ -38,7 +38,14 @@ void bresenhams_line(int x1, int y1, int x2, int y2) {
 int main() {
     int gd = DETECT, gm,x,y,x1,y1;
     initgraph(&gd, &gm,"C://programs//TC//BGI");
-    
+   
+printf("-----BRES-LINE ALGO------\n");
+printf("enter x1,y1:");
+scanf("%d %d",&x,&y);
+printf("enter x2,y2:");
+scanf("%d %d",&x1,&y1);
+cleardevice();
+bresenhams_line(x,y,x1,y1);
     getch();
     closegraph();
     return 0;
