@@ -43,11 +43,10 @@ void main()
  int x,y,r;
  clrscr();
  initgraph(&gd,&gm,"C:\\programs\\TC\\BGI");
- MD(200,200,50);
- MD(150,200,50);
- MD(250,200,50);
- MD(200,150,50);
- MD(200,250,50);
+ printf("-------MIDPOINT CIRCLE ALGO--------\n");
+printf("enter x,y,r:");
+scanf("%d %d %d",&x,&y,&r);
+MD(x,y,r);
  getch();
  closegraph();
 }
