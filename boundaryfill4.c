@@ -17,7 +17,7 @@ if(getpixel(x,y)!=fc && getpixel(x,y)!=bc){
 }
 }
 int main(){
-int gd=DETECT,gm,c;
+int gd=DETECT,gm;
 
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 
