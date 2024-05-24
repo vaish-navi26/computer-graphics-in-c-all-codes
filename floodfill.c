@@ -15,6 +15,11 @@ int newcolor=nc;
     ffill (x+1,y, newcolor);
     ffill(x,y-1, newcolor);
     ffill (x, y+1, newcolor);
+    ffill(x+1,y-1,newcolor);
+    ffill(x+1,y+1,newcolor);
+	 ffill(x-1,y+1,newcolor);
+	 ffill(x-1,y-1,newcolor);
+	 
  }
 }
 
