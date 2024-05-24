@@ -8,4 +8,10 @@ following codes :
 5. Flood Fill Algo(seed fill)
 6. Boundary Fill Algo
 7. ScanLine Algo
-8. 2d transformation
+8. 2d transformation (translation,rotation,shearing,reflection)
+9. line clipping algo
+10. polygon clipping algo
+11. curves(fractal,korch,brezier)
+12. 3d transformation
+13. animation using segemnt
+    
