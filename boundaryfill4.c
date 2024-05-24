@@ -11,7 +11,11 @@ void boundfill(int x,int y,int fc,int bc){
 if(getpixel(x,y)!=fc && getpixel(x,y)!=bc){
    putpixel(x,y,fc);
    bf(x+1,y,fc,bc);
+    bf(x+1,y-1,fc,bc);
+    bf(x+1,y+1,fc,bc);
    bf(x-1,y,fc,bc);
+    bf(x-1,y-1,fc,bc);
+    bf(x-1,y+1,fc,bc);
    bf(x,y+1,fc,bc);
    bf(x,y-1,fc,bc);
 }
