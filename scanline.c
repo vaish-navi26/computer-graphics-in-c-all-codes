@@ -42,12 +42,12 @@ int points[6][2]={
 };
 
 int main(){
-int gd=DETECT,gm,c;
+int gd=DETECT,gm,c,sides;
 
 initgraph(&gd,&gm,"C:\\TURBOC3\\BGI");
 
-
-       scanLineFill(6,&points,RED);
+sides=6;
+       scanLineFill(sides,&points,RED);
     
 getch();
 closegraph();
