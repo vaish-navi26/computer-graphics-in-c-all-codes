@@ -28,7 +28,7 @@ accept = 1;
 break;
 } else if (outcode1 & outcode2) { // Both endpoints lie in one region
 
-Computer Graphics And Gaming Laboratory
+
 
 break;
 } else { // Some part of the line lies inside the window
@@ -63,7 +63,7 @@ outcode2 = computeCode(x2, y2, xmin, ymin, xmax, ymax);
 }
 }
 
-Computer Graphics And Gaming Laboratory
+
 
 // If line segment is accepted
 if (accept) {
@@ -98,7 +98,7 @@ line(x1, y1, x2, y2);
 outcode1 = computeCode(x1, y1, xmin, ymin, xmax, ymax);
 outcode2 = computeCode(x2, y2, xmin, ymin, xmax, ymax);
 
-Computer Graphics And Gaming Laboratory
+
 
 printf("Bitcode of Point 1: %d%d%d%d\n", (outcode1 & 8) ? 1 : 0, (outcode1 & 4) ? 1 : 0, (outcode1 & 2)
 ? 1 : 0, (outcode1 & 1) ? 1 : 0);
