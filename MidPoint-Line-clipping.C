@@ -113,3 +113,34 @@ getch();
 closegraph();
 return 0;
 }
+
+/*
+int xmid = (x1 + x2) / 2;
+            int ymid = (y1 + y2) / 2;
+            int outcodeMid = computeCode(xmid, ymid, xmin, ymin, xmax, ymax);
+
+            // If midpoint is inside the clip window
+            if (outcodeMid == 0) {
+                // Replace the outside endpoint with the midpoint
+                if (outcode1 != 0) {
+                    x1 = xmid;
+                    y1 = ymid;
+                    outcode1 = outcodeMid;
+                } else {
+                    x2 = xmid;
+                    y2 = ymid;
+                    outcode2 = outcodeMid;
+                }
+            } else { // Midpoint is outside the clip window
+                if (outcode1 != 0) {
+                    x1 = xmid;
+                    y1 = ymid;
+                    outcode1 = outcodeMid;
+                } else {
+                    x2 = xmid;
+                    y2 = ymid;
+                    outcode2 = outcodeMid;
+                }
+            }
+
+*/
