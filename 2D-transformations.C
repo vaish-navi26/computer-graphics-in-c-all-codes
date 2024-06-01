@@ -26,7 +26,7 @@ float A[r][3] = {{20,20,1},
 	       {20,100,1}};
 float mul[r][3];
 
-void reflection(float rx, float ry)
+/* void reflection(float rx, float ry)
 {
  int i,j,k;
  R[0][0] = rx;
@@ -44,7 +44,7 @@ void reflection(float rx, float ry)
   }
  }
 }
-
+*/
 void shear(float shx, float shy)
 {
  int i,j,k;
@@ -136,7 +136,7 @@ void main()
   case 2:
     scale(sx,sy);
     break;
-
+/*
   case 3:
     reflection(-1,1);
     break;
@@ -148,7 +148,7 @@ void main()
   case 5:
     reflection(-1,-1);
     break;
-
+*/
   case 6:
     shear(shx,0);
     break;
